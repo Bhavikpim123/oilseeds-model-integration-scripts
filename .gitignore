@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.*
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Machine Learning Models
+models/
+**/models/
+*.pkl
+
+# Render configuration
+render.yaml
+**/render.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
